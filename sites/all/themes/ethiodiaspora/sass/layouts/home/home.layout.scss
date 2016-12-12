@@ -1,0 +1,116 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+@import "../../base/**/*";
+@import "../../components/**/*";
+
+
+
+.l-page{
+	@include breakpoint($tab, true){
+		width:$tab;
+	}
+	@include breakpoint($desk, true){
+		width:960px;
+	}
+	margin:0 auto;
+}
+
+.l-main{
+	margin: 10px auto;
+	background: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+	@include clearfix;
+}
+
+@include breakpoint($tab, true){
+	.l-page,
+	.l-main,
+	.l-top,
+	.l-footer{
+
+		@include grid-span(12,1);
+	}
+
+	  .l-region--navigation{
+     	font-size: 13px;
+     	margin: 20px auto;
+     }
+
+	.l-top{
+		.l-main--video{
+			@include grid-span(8,1);
+			padding:5px 5px 15px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+
+		.l-main--audio{
+			@include grid-span(4,9);
+			padding: 5px 5px 5px 5px;
+			min-height:450px;
+			background:#00b300;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+		
+	}
+
+	.l-main{
+		.l-content{
+			@include grid-span(9,1);
+		}
+
+		.l-region--sidebar-second{
+			@include grid-span(3, 10);
+		}
+	}
+
+	.l-sectional{
+		@include grid-span(12,1);
+		margin:10, auto;
+		float:left;
+		.l-region--sectional-one{
+			@include grid-span(4,1);
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+
+		.l-region--sectional-two{
+			@include grid-span(4,5);
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+
+		.l-region--sectional-three{
+			@include grid-span(4,9);
+			height:200px;
+			background:#80ff80;
+			border:1px;
+			padding: 5px 5px 5px 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+		}
+	}
+}
