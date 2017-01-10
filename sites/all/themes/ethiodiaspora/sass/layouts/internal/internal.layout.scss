@@ -1,0 +1,102 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+@import "../../base/**/*";
+@import "../../components/**/*";
+
+
+
+
+.l-page{
+	@include breakpoint($tab, true){
+		width:$tab;
+	}
+	@include breakpoint($desk, true){
+		width:$desk;
+	}
+	
+}
+
+.l-page{
+	margin: 0 auto;
+	padding:10px 20px 0px 20px;
+}
+
+.l-main{
+	margin: 10px auto;
+	background: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+	@include clearfix;
+}
+
+.l-branding img{
+	width:100%;
+}
+
+@include breakpoint($tab, true){
+	
+	.l-main,
+	.l-top,
+	.l-footer
+	.l-branding{
+
+		@include grid-span(12,1);
+	}
+
+	 .l-region--navigation{
+     	font-size: 13px;
+     	margin: 20px auto;
+     }
+
+
+     .l-main{
+    
+		.l-content{
+			@include grid-span(9,1);
+			
+			padding:15px 15px 50px 50px;
+
+
+			//Youtube video section would ocopay 80% of the content area
+			.views-field-field-youtube{
+
+				width:80%;
+			}
+			//Uploaded Video section would ocopay 80% of the content area
+			.views-field-field-video{
+
+				width:80%;
+			}
+		}
+
+		.l-region--sidebar-second{
+			@include grid-span(3, 10);
+			//padding:5px 5px 5px 5px;
+			margin: 0 auto;
+			height:100%;
+		}
+	}
+
+	.l-region--sidebar-second{
+		background-color:yellow;
+	}
+
+}

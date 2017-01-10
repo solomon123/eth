@@ -1,21 +1,19 @@
 /* No files to import found in ../../abstractions/**\/* */
-/* line 1, ../../../sass/base/_media.scss */
-img, media {
-  max-width: 100%; }
-
-/* line 27, ../../../sass/layouts/home/home.layout.scss */
-.l-page {
-  margin: 0 auto; }
-  @media (min-width: 44em) {
-    /* line 27, ../../../sass/layouts/home/home.layout.scss */
-    .l-page {
-      width: 44em; } }
-  @media (min-width: 70em) {
-    /* line 27, ../../../sass/layouts/home/home.layout.scss */
-    .l-page {
-      width: 960px; } }
+@media (min-width: 44em) {
+  /* line 27, ../../../sass/layouts/home/home.layout.scss */
+  .l-page {
+    width: 44em; } }
+@media (min-width: 70em) {
+  /* line 27, ../../../sass/layouts/home/home.layout.scss */
+  .l-page {
+    width: 70em; } }
 
 /* line 37, ../../../sass/layouts/home/home.layout.scss */
+.l-page {
+  margin: 0 auto;
+  padding: 10px 20px 0px 20px; }
+
+/* line 42, ../../../sass/layouts/home/home.layout.scss */
 .l-main {
   margin: 10px auto;
   background: white;
@@ -26,9 +24,12 @@ img, media {
     display: table;
     clear: both; }
 
+/* line 49, ../../../sass/layouts/home/home.layout.scss */
+.l-branding img {
+  width: 100%; }
+
 @media (min-width: 44em) {
-  /* line 45, ../../../sass/layouts/home/home.layout.scss */
-  .l-page,
+  /* line 56, ../../../sass/layouts/home/home.layout.scss */
   .l-main,
   .l-top,
   .l-footer {
@@ -38,57 +39,65 @@ img, media {
     margin-right: 0;
     clear: none; }
 
-  /* line 53, ../../../sass/layouts/home/home.layout.scss */
+  /* line 63, ../../../sass/layouts/home/home.layout.scss */
   .l-region--navigation {
     font-size: 13px;
     margin: 20px auto; }
 
-  /* line 59, ../../../sass/layouts/home/home.layout.scss */
-  .l-top .l-main--video {
-    width: 66.10169%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-    padding: 5px 5px 15px 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  /* line 65, ../../../sass/layouts/home/home.layout.scss */
-  .l-top .l-main--audio {
-    width: 32.20339%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    padding: 5px 5px 5px 5px;
-    min-height: 450px;
-    background: #00b300;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  /* line 68, ../../../sass/layouts/home/home.layout.scss */
+  .l-top {
+    margin: 5px 5px 5px 5px; }
+    /* line 73, ../../../sass/layouts/home/home.layout.scss */
+    .l-top .l-main--video {
+      width: 66.10169%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      margin: 5px 5px 5px 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    /* line 79, ../../../sass/layouts/home/home.layout.scss */
+    .l-top .l-main--audio {
+      width: 32.20339%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      padding: 5px 5px 5px 5px;
+      background: #00b300;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+      /* line 85, ../../../sass/layouts/home/home.layout.scss */
+      .l-top .l-main--audio .block--views-list-of-radio-program-block {
+        width: 100%; }
 
-  /* line 76, ../../../sass/layouts/home/home.layout.scss */
+  /* line 93, ../../../sass/layouts/home/home.layout.scss */
   .l-main .l-content {
     width: 74.57627%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
-    clear: none; }
-  /* line 80, ../../../sass/layouts/home/home.layout.scss */
+    clear: none;
+    padding: 5px 5px 5px 5px; }
+  /* line 98, ../../../sass/layouts/home/home.layout.scss */
   .l-main .l-region--sidebar-second {
     width: 23.72881%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+    padding: 5px 5px 5px 5px;
+    height: 100%; }
 
-  /* line 85, ../../../sass/layouts/home/home.layout.scss */
+  /* line 106, ../../../sass/layouts/home/home.layout.scss */
   .l-sectional {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    margin: 10, auto;
+    margin: 15, auto;
     float: left; }
-    /* line 89, ../../../sass/layouts/home/home.layout.scss */
+    /* line 110, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-one {
       width: 32.20339%;
       float: left;
@@ -100,7 +109,7 @@ img, media {
       border: 1px;
       padding: 5px 5px 5px 5px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-    /* line 98, ../../../sass/layouts/home/home.layout.scss */
+    /* line 119, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-two {
       width: 32.20339%;
       float: left;
@@ -112,7 +121,7 @@ img, media {
       border: 1px;
       padding: 5px 5px 5px 5px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-    /* line 107, ../../../sass/layouts/home/home.layout.scss */
+    /* line 128, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-three {
       width: 32.20339%;
       float: right;

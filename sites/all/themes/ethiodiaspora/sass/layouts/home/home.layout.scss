@@ -29,9 +29,14 @@
 		width:$tab;
 	}
 	@include breakpoint($desk, true){
-		width:960px;
+		width:$desk;
 	}
-	margin:0 auto;
+	
+}
+
+.l-page{
+	margin: 0 auto;
+	padding:10px 20px 0px 20px;
 }
 
 .l-main{
@@ -41,8 +46,13 @@
 	@include clearfix;
 }
 
+.l-branding img{
+	width:100%;
+}
+
+
 @include breakpoint($tab, true){
-	.l-page,
+	
 	.l-main,
 	.l-top,
 	.l-footer{
@@ -56,18 +66,25 @@
      }
 
 	.l-top{
+
+		
+		margin:5px 5px 5px 5px;
+		
 		.l-main--video{
 			@include grid-span(8,1);
-			padding:5px 5px 15px 5px;
+			margin:5px 5px 5px 5px;
 			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
 		}
 
 		.l-main--audio{
 			@include grid-span(4,9);
 			padding: 5px 5px 5px 5px;
-			min-height:450px;
 			background:#00b300;
 			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+
+			.block--views-list-of-radio-program-block{
+				width:100%;
+			}
 		}
 		
 	}
@@ -75,16 +92,20 @@
 	.l-main{
 		.l-content{
 			@include grid-span(9,1);
+			padding:5px 5px 5px 5px;
 		}
 
 		.l-region--sidebar-second{
 			@include grid-span(3, 10);
+			padding:5px 5px 5px 5px;
+			height:100%;
+			
 		}
 	}
 
 	.l-sectional{
 		@include grid-span(12,1);
-		margin:10, auto;
+		margin:15, auto;
 		float:left;
 		.l-region--sectional-one{
 			@include grid-span(4,1);
