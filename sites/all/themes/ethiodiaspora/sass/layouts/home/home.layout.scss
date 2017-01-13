@@ -22,7 +22,9 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
-
+body{
+	background:$bodycolor;
+}
 
 .l-page{
 	@include breakpoint($tab, true){
@@ -63,6 +65,11 @@
 	  .l-region--navigation{
      	font-size: 13px;
      	margin: 20px auto;
+     }
+
+     .l-region--footer{	
+     	background:#333;
+     	height:100px;
      }
 
 	.l-top{

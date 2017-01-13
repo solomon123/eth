@@ -23,7 +23,9 @@
 @import "../../components/**/*";
 
 
-
+body{
+	background:$bodycolor;
+}
 
 .l-page{
 	@include breakpoint($tab, true){
@@ -39,6 +41,8 @@
 	margin: 0 auto;
 	padding:10px 20px 0px 20px;
 }
+
+
 
 .l-main{
 	margin: 10px auto;
@@ -66,6 +70,10 @@
      	margin: 20px auto;
      }
 
+     .l-region--footer{	
+     	background:#333;
+     	height:100px;
+     }
 
      .l-main{
     

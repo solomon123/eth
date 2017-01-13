@@ -1,19 +1,23 @@
 /* No files to import found in ../../abstractions/**\/* */
+/* line 26, ../../../sass/layouts/internal/internal.layout.scss */
+body {
+  background: #eaebed; }
+
 @media (min-width: 44em) {
-  /* line 28, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 30, ../../../sass/layouts/internal/internal.layout.scss */
   .l-page {
     width: 44em; } }
 @media (min-width: 70em) {
-  /* line 28, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 30, ../../../sass/layouts/internal/internal.layout.scss */
   .l-page {
     width: 70em; } }
 
-/* line 38, ../../../sass/layouts/internal/internal.layout.scss */
+/* line 40, ../../../sass/layouts/internal/internal.layout.scss */
 .l-page {
   margin: 0 auto;
   padding: 10px 20px 0px 20px; }
 
-/* line 43, ../../../sass/layouts/internal/internal.layout.scss */
+/* line 47, ../../../sass/layouts/internal/internal.layout.scss */
 .l-main {
   margin: 10px auto;
   background: white;
@@ -24,12 +28,12 @@
     display: table;
     clear: both; }
 
-/* line 50, ../../../sass/layouts/internal/internal.layout.scss */
+/* line 54, ../../../sass/layouts/internal/internal.layout.scss */
 .l-branding img {
   width: 100%; }
 
 @media (min-width: 44em) {
-  /* line 56, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 60, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main,
   .l-top,
   .l-footer
@@ -40,12 +44,17 @@
     margin-right: 0;
     clear: none; }
 
-  /* line 64, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 68, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--navigation {
     font-size: 13px;
     margin: 20px auto; }
 
-  /* line 72, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 73, ../../../sass/layouts/internal/internal.layout.scss */
+  .l-region--footer {
+    background: #333;
+    height: 100px; }
+
+  /* line 80, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main .l-content {
     width: 74.57627%;
     float: left;
@@ -53,13 +62,13 @@
     margin-left: 0;
     clear: none;
     padding: 15px 15px 50px 50px; }
-    /* line 79, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 87, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-youtube {
       width: 80%; }
-    /* line 84, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 92, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-video {
       width: 80%; }
-  /* line 90, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 98, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main .l-region--sidebar-second {
     width: 23.72881%;
     float: right;
@@ -69,7 +78,7 @@
     margin: 0 auto;
     height: 100%; }
 
-  /* line 98, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 106, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--sidebar-second {
     background-color: yellow; } }
 

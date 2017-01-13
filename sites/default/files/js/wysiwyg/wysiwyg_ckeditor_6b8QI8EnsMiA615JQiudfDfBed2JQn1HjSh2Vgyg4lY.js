@@ -1,1 +1,0 @@
-window.CKEDITOR_BASEPATH = '/ethiodiaspora/sites/all/libraries/ckeditor/';
