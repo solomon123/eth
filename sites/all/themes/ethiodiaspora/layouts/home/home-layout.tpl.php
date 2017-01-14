@@ -66,4 +66,8 @@
     <?php print render($page['footer_gallary']); ?>
     <?php print render($page['footer']); ?>
   </footer>
+  <div>
+    <h1>This is footer test on git</h1>
+  </div>
+
 </div>
