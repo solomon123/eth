@@ -62,13 +62,13 @@ body {
     margin-left: 0;
     clear: none;
     padding: 15px 15px 50px 50px; }
-    /* line 87, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 86, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-youtube {
       width: 80%; }
-    /* line 92, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 91, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-video {
       width: 80%; }
-  /* line 98, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 97, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main .l-region--sidebar-second {
     width: 23.72881%;
     float: right;
@@ -78,7 +78,7 @@ body {
     margin: 0 auto;
     height: 100%; }
 
-  /* line 106, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 105, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--sidebar-second {
     background-color: yellow; } }
 
