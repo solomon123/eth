@@ -44,7 +44,7 @@ body{
 .l-main{
 	margin: 10px auto;
 	background: white;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
 	@include clearfix;
 }
 
@@ -73,7 +73,7 @@ body{
      }
      .l-region--footer{	
 
-     	background:#333;
+     	background:#f7a416;
      	height:100px;
      }
 
@@ -85,14 +85,14 @@ body{
 		.l-main--video{
 			@include grid-span(8,1);
 			margin:5px 5px 5px 5px;
-			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
 		}
 
 		.l-main--audio{
 			@include grid-span(4,9);
 			padding: 5px 5px 5px 5px;
 			background:#00b300;
-			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
 
 			.block--views-list-of-radio-program-block{
 				width:100%;
@@ -134,7 +134,7 @@ body{
 			background:#80ff80;
 			border:1px;
 			padding: 5px 5px 5px 5px;
-			//box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
 		}
 
 		.l-region--sectional-three{
@@ -143,20 +143,9 @@ body{
 			background:#80ff80;
 			border:1px;
 			padding: 5px 5px 5px 5px;
-			//box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
 		}
 	}
 
-	.l-footer{
-	 background: #red;
-		.l-region--footer{
-			@include grid-span(6,1);
-		}
-
-		.l-region--footer{
-			@include grid-span(6,7);
-			floot:right;
-
-		}
-	}
+	
 }

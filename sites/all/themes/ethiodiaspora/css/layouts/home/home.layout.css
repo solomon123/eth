@@ -21,7 +21,7 @@ body {
 .l-main {
   margin: 10px auto;
   background: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
   /* line 13, ../../../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
   .l-main:after {
     content: "";
@@ -55,7 +55,7 @@ body {
 
   /* line 74, ../../../sass/layouts/home/home.layout.scss */
   .l-region--footer {
-    background: #333;
+    background: #f7a416;
     height: 100px; }
 
   /* line 80, ../../../sass/layouts/home/home.layout.scss */
@@ -69,7 +69,7 @@ body {
       margin-left: 0;
       clear: none;
       margin: 5px 5px 5px 5px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+      box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
     /* line 91, ../../../sass/layouts/home/home.layout.scss */
     .l-top .l-main--audio {
       width: 32.20339%;
@@ -79,7 +79,7 @@ body {
       clear: none;
       padding: 5px 5px 5px 5px;
       background: #00b300;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+      box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
       /* line 97, ../../../sass/layouts/home/home.layout.scss */
       .l-top .l-main--audio .block--views-list-of-radio-program-block {
         width: 100%; }
@@ -133,7 +133,8 @@ body {
       height: 200px;
       background: #80ff80;
       border: 1px;
-      padding: 5px 5px 5px 5px; }
+      padding: 5px 5px 5px 5px;
+      box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
     /* line 140, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-three {
       width: 32.20339%;
@@ -144,25 +145,7 @@ body {
       height: 200px;
       background: #80ff80;
       border: 1px;
-      padding: 5px 5px 5px 5px; }
-
-  /* line 150, ../../../sass/layouts/home/home.layout.scss */
-  .l-footer {
-    background: #red; }
-    /* line 152, ../../../sass/layouts/home/home.layout.scss */
-    .l-footer .l-region--footer {
-      width: 49.15254%;
-      float: left;
-      margin-right: -100%;
-      margin-left: 0;
-      clear: none; }
-    /* line 156, ../../../sass/layouts/home/home.layout.scss */
-    .l-footer .l-region--footer {
-      width: 49.15254%;
-      float: right;
-      margin-left: 0;
-      margin-right: 0;
-      clear: none;
-      floot: right; } }
+      padding: 5px 5px 5px 5px;
+      box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); } }
 
 /*# sourceMappingURL=home.layout.css.map */

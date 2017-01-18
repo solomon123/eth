@@ -64,7 +64,9 @@
 
   <footer class="l-footer" role="contentinfo">
     <?php print render($page['footer_gallary']); ?>
+
     <?php print render($page['footer']); ?>
+   
   </footer>
 
 
