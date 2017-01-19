@@ -217,8 +217,8 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'eth',
-      'username' => 'root',
+      'database' => 'ethioDB',
+      'username' => 'dbEthio',
       'password' => 'solo3022',
       'host' => 'localhost',
       'port' => '',
