@@ -217,8 +217,8 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'ethioDB',
-      'username' => 'dbEthio',
+      'database' => 'root',
+      'username' => 'eth',
       'password' => 'solo3022',
       'host' => 'localhost',
       'port' => '',
@@ -227,6 +227,8 @@ $databases = array (
     ),
   ),
 );
+
+
 
 /**
  * Access control for update.php script.
