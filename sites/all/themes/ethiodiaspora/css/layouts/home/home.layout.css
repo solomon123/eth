@@ -3,11 +3,6 @@
 body {
   background: #eaebed; }
 
-/* line 13, ../../../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
-.l-page:after {
-  content: " ";
-  display: table;
-  clear: both; }
 @media (min-width: 44em) {
   /* line 29, ../../../sass/layouts/home/home.layout.scss */
   .l-page {
@@ -17,23 +12,28 @@ body {
   .l-page {
     width: 70em; } }
 
-/* line 40, ../../../sass/layouts/home/home.layout.scss */
+/* line 39, ../../../sass/layouts/home/home.layout.scss */
 .l-page {
   margin: 0 auto;
   padding: 10px 20px 0px 20px; }
+  /* line 13, ../../../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
+  .l-page:after {
+    content: "";
+    display: table;
+    clear: both; }
 
-/* line 46, ../../../sass/layouts/home/home.layout.scss */
+/* line 45, ../../../sass/layouts/home/home.layout.scss */
 .l-main {
   margin: 10px auto;
   background: white;
   box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
 
-/* line 53, ../../../sass/layouts/home/home.layout.scss */
+/* line 52, ../../../sass/layouts/home/home.layout.scss */
 .l-branding img {
   width: 100%; }
 
 @media (min-width: 44em) {
-  /* line 60, ../../../sass/layouts/home/home.layout.scss */
+  /* line 59, ../../../sass/layouts/home/home.layout.scss */
   .l-main,
   .l-top,
   .l-footer
@@ -44,24 +44,24 @@ body {
     margin-right: 0;
     clear: none; }
 
-  /* line 69, ../../../sass/layouts/home/home.layout.scss */
+  /* line 68, ../../../sass/layouts/home/home.layout.scss */
   .l-region--navigation {
     font-size: 13px;
     margin: 20px auto; }
 
-  /* line 74, ../../../sass/layouts/home/home.layout.scss */
+  /* line 73, ../../../sass/layouts/home/home.layout.scss */
   .l-box {
     float: left; }
 
-  /* line 77, ../../../sass/layouts/home/home.layout.scss */
+  /* line 76, ../../../sass/layouts/home/home.layout.scss */
   .l-region--footer {
     background: #f7a416;
     height: 100px; }
 
-  /* line 83, ../../../sass/layouts/home/home.layout.scss */
+  /* line 82, ../../../sass/layouts/home/home.layout.scss */
   .l-top {
     margin: 5px 5px 5px 5px; }
-    /* line 88, ../../../sass/layouts/home/home.layout.scss */
+    /* line 87, ../../../sass/layouts/home/home.layout.scss */
     .l-top .l-main--video {
       width: 66.10169%;
       float: left;
@@ -70,7 +70,7 @@ body {
       clear: none;
       margin: 5px 5px 5px 5px;
       box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
-    /* line 94, ../../../sass/layouts/home/home.layout.scss */
+    /* line 93, ../../../sass/layouts/home/home.layout.scss */
     .l-top .l-main--audio {
       width: 32.20339%;
       float: right;
@@ -80,11 +80,11 @@ body {
       padding: 5px 5px 5px 5px;
       background: #00b300;
       box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
-      /* line 100, ../../../sass/layouts/home/home.layout.scss */
+      /* line 99, ../../../sass/layouts/home/home.layout.scss */
       .l-top .l-main--audio .block--views-list-of-radio-program-block {
         width: 100%; }
 
-  /* line 108, ../../../sass/layouts/home/home.layout.scss */
+  /* line 107, ../../../sass/layouts/home/home.layout.scss */
   .l-main .l-content {
     width: 74.57627%;
     float: left;
@@ -92,7 +92,7 @@ body {
     margin-left: 0;
     clear: none;
     padding: 5px 5px 5px 5px; }
-  /* line 113, ../../../sass/layouts/home/home.layout.scss */
+  /* line 112, ../../../sass/layouts/home/home.layout.scss */
   .l-main .l-region--sidebar-second {
     width: 23.72881%;
     float: right;
@@ -102,7 +102,7 @@ body {
     padding: 5px 5px 5px 5px;
     height: 100%; }
 
-  /* line 121, ../../../sass/layouts/home/home.layout.scss */
+  /* line 120, ../../../sass/layouts/home/home.layout.scss */
   .l-sectional {
     width: 100%;
     float: right;
@@ -111,7 +111,7 @@ body {
     clear: none;
     margin: 15, auto;
     float: left; }
-    /* line 125, ../../../sass/layouts/home/home.layout.scss */
+    /* line 124, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-one {
       width: 32.20339%;
       float: left;
@@ -123,7 +123,7 @@ body {
       border: 1px;
       padding: 5px 5px 5px 5px;
       box-shadow: 0 1px 2px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
-    /* line 134, ../../../sass/layouts/home/home.layout.scss */
+    /* line 133, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-two {
       width: 32.20339%;
       float: left;
@@ -135,7 +135,7 @@ body {
       border: 1px;
       padding: 5px 5px 5px 5px;
       box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 rgba(0, 0, 0, 0.05); }
-    /* line 143, ../../../sass/layouts/home/home.layout.scss */
+    /* line 142, ../../../sass/layouts/home/home.layout.scss */
     .l-sectional .l-region--sectional-three {
       width: 32.20339%;
       float: right;

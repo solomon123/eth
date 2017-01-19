@@ -27,7 +27,6 @@ body{
 }
 
 .l-page{
-	@include clearfix;
 	@include breakpoint($tab, true){
 		width:$tab;
 	}
@@ -40,7 +39,7 @@ body{
 .l-page{
 	margin: 0 auto;
 	padding:10px 20px 0px 20px;
-	
+	@include clearfix;
 }
 
 .l-main{
