@@ -16,24 +16,24 @@ body {
 .l-page {
   margin: 0 auto;
   padding: 10px 20px 0px 20px; }
-
-/* line 47, ../../../sass/layouts/internal/internal.layout.scss */
-.l-main {
-  margin: 10px auto;
-  background: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   /* line 13, ../../../../../../../../../../lib/gems/2.3.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
-  .l-main:after {
+  .l-page:after {
     content: "";
     display: table;
     clear: both; }
 
-/* line 54, ../../../sass/layouts/internal/internal.layout.scss */
+/* line 48, ../../../sass/layouts/internal/internal.layout.scss */
+.l-main {
+  margin: 10px auto;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+/* line 55, ../../../sass/layouts/internal/internal.layout.scss */
 .l-branding img {
   width: 100%; }
 
 @media (min-width: 44em) {
-  /* line 60, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 61, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main,
   .l-top,
   .l-footer
@@ -44,17 +44,17 @@ body {
     margin-right: 0;
     clear: none; }
 
-  /* line 68, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 69, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--navigation {
     font-size: 13px;
     margin: 20px auto; }
 
-  /* line 73, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 74, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--footer {
-    background: #333;
+    background: #f7a416;
     height: 100px; }
 
-  /* line 80, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 81, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main .l-content {
     width: 74.57627%;
     float: left;
@@ -62,13 +62,13 @@ body {
     margin-left: 0;
     clear: none;
     padding: 15px 15px 50px 50px; }
-    /* line 86, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 87, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-youtube {
       width: 80%; }
-    /* line 91, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 92, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-video {
       width: 80%; }
-  /* line 97, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 98, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main .l-region--sidebar-second {
     width: 23.72881%;
     float: right;
@@ -78,7 +78,7 @@ body {
     margin: 0 auto;
     height: 100%; }
 
-  /* line 105, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 106, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--sidebar-second {
     background-color: yellow; } }
 

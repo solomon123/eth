@@ -27,6 +27,7 @@ body{
 }
 
 .l-page{
+	@include clearfix;
 	@include breakpoint($tab, true){
 		width:$tab;
 	}
@@ -39,13 +40,14 @@ body{
 .l-page{
 	margin: 0 auto;
 	padding:10px 20px 0px 20px;
+	
 }
 
 .l-main{
 	margin: 10px auto;
 	background: white;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
-	@include clearfix;
+	
 }
 
 .l-branding img{
@@ -59,6 +61,7 @@ body{
 	.l-top,
 	.l-footer
 	.l-footer-gallary{
+
 
 		@include grid-span(12,1);
 	}
