@@ -52,47 +52,35 @@ body {
   /* line 74, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--footer {
     background: #f7a416;
-    height: 100px; }
+    height: 100px;
+    float: bottom; }
 
-  /* line 81, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 82, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main .l-content {
     width: 74.57627%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
-    padding: 15px 15px 50px 50px;
-    /*
-    			.views-row-1{
-    				border-color: red;
-    				border-style: solid;
-        			border-width: 0 0 0 0;
-    			}
-    
-    			.views-row-3{
-    				border-color: red;
-    				border-style: solid;
-        			border-width: 0 0 0 0;
-    			}
-    	*/ }
-    /* line 87, ../../../sass/layouts/internal/internal.layout.scss */
+    padding: 15px 15px 50px 50px; }
+    /* line 88, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-youtube {
       width: 80%; }
-    /* line 92, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 93, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-field-field-video {
       width: 80%; }
-    /* line 96, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 97, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .field-content {
       font-size: 1.5em; }
-    /* line 101, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 102, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-row {
       padding: 15px 15px 100px 50px; }
-    /* line 105, ../../../sass/layouts/internal/internal.layout.scss */
+    /* line 106, ../../../sass/layouts/internal/internal.layout.scss */
     .l-main .l-content .views-row-even {
       border-color: red;
       border-style: solid;
       border-width: 1px 0 1px 0; }
-  /* line 126, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 113, ../../../sass/layouts/internal/internal.layout.scss */
   .l-main .l-region--sidebar-second {
     width: 23.72881%;
     float: right;
@@ -102,7 +90,7 @@ body {
     margin: 0 auto;
     height: 100%; }
 
-  /* line 134, ../../../sass/layouts/internal/internal.layout.scss */
+  /* line 121, ../../../sass/layouts/internal/internal.layout.scss */
   .l-region--sidebar-second {
     background-color: yellow; } }
 
