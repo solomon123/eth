@@ -217,6 +217,7 @@ $databases = array (
   array (
     'default' => 
     array (
+
       'database' => 'root',
       'username' => 'eth',
       'password' => 'solo3022',
