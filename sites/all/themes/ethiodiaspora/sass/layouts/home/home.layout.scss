@@ -22,124 +22,120 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
+
+// setting a common background color
+
 body{
 	background:$bodycolor;
 }
 
+//Setting a gutter and width for the main container l-page
+
 .l-page{
+
+	background:#cdf7cf;
+	
 	@include breakpoint($tab, true){
 		width:$tab;
 	}
+	
 	@include breakpoint($desk, true){
 		width:$desk;
-	}
-	
-}
+	}	
 
-.l-page{
+	
+	//setting the margin and padding
+
 	margin: 0 auto;
-	padding:10px 20px 0px 20px;
+	padding:10px 0px 0px 0px;
 	@include clearfix;
-}
 
-.l-main{
-	margin: 10px auto;
-	background: white;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
 	
+
+	//adjusting the header image to 100% width
+
+	.l-branding img{
+		width:100%;
+	}
 }
 
-.l-branding img{
-	width:100%;
-}
 
+
+//Sass code to create our mobile css
 
 @include breakpoint($tab, true){
 	
-	.l-main,
-	.l-top,
-	.l-footer
-	.l-footer-gallary{
+	
+	//asigning outer container a maximum gutter size
 
+	.l-main,
+	.l-header,
+	.l-top,
+	.l-sectional,
+	.l-footer,
+	.l-footer-gallary{
 
 		@include grid-span(12,1);
 	}
 
-	  .l-region--navigation{
-     	font-size: 13px;
-     	margin: 20px auto;
-     }
 
-     
+
+	//creating the l-top to include video and audio
+
 	.l-top{
 
-		
-		margin:5px 5px 5px 5px;
-		
+		padding: 5px 0 5px 0;
 		.l-main--video{
 			@include grid-span(8,1);
-			margin:5px 5px 5px 5px;
-			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
+			
 		}
 
 		.l-main--audio{
 			@include grid-span(4,9);
-			padding: 5px 5px 5px 5px;
-			background:#00b300;
-			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
-
-			.block--views-list-of-radio-program-block{
-				width:100%;
-			}
-		}
-		
-	}
-
-	.l-main{
-		.l-content{
-			@include grid-span(9,1);
-			padding:5px 5px 5px 5px;
-		}
-
-		.l-region--sidebar-second{
-			@include grid-span(3, 10);
-			padding:5px 5px 5px 5px;
-			height:100%;
 			
 		}
 	}
 
+
+	//setting the l-sectional which is a three pic board
+
 	.l-sectional{
-		@include grid-span(12,1);
-		margin:15, auto;
-		float:left;
+
+		padding: 5px 0 5px 0;
+
 		.l-region--sectional-one{
 			@include grid-span(4,1);
-			height:200px;
-			background:#80ff80;
-			border:1px;
-			padding: 5px 5px 5px 5px;
-			box-shadow: 0 1px 2px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
+			background:lightblue;
 		}
-
 		.l-region--sectional-two{
 			@include grid-span(4,5);
-			height:200px;
-			background:#80ff80;
-			border:1px;
-			padding: 5px 5px 5px 5px;
-			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
+			background:yellow;
 		}
-
 		.l-region--sectional-three{
 			@include grid-span(4,9);
-			height:200px;
-			background:#80ff80;
-			border:1px;
-			padding: 5px 5px 5px 5px;
-			box-shadow: 0 4px 8px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0, 0.05);
+			background:crame;
 		}
+
+	}
+	
+
+
+	//creating internal gutter for l-main
+	.l-main{
+
+
 	}
 
-	
+	.l-footer-gallary{
+		padding: 5px 5px 5px 5px;
+		background:blue;
+	}
+
+	.l-footer{
+		padding: 5px 5px 5px 5px;
+		background:red;
+	}
+
 }
+
+
