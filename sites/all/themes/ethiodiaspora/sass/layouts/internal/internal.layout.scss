@@ -40,49 +40,35 @@ body{
 .l-page{
 	margin: 0 auto;
 	padding:10px 20px 0px 20px;
-	@include clearfix;
+	//add a clearfix in here
 }
 
 
 
-.l-main{
-	margin: 10px auto;
-	background: white;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
-	
-}
 
-.l-branding img{
-	width:100%;
-}
+
+// this is a mobile first SASS code
 
 @include breakpoint($tab, true){
 	
 	.l-main,
-	.l-top,
-	.l-footer
-	.l-branding{
-
+	.l-header,
+	.l-footer{
+		//Givinig fool width to the top containers
 		@include grid-span(12,1);
 	}
 
-	 .l-region--navigation{
-     	font-size: 13px;
-     	margin: 20px auto;
-     }
 
-     .l-region--footer{	
-     	background:#f7a416;
-     	height:100px;
-     	float:bottom;
-     }
+	.l-main{
 
-     .l-main{
-    
+		background: white;
+		padding: 15px 15px 15px 15px;
+
+
+		//content area Style
+
 		.l-content{
 			@include grid-span(9,1);
-			
-			padding:15px 15px 50px 50px;
 
 			//Youtube video section would ocopay 80% of the content area
 			.views-field-field-youtube{
@@ -94,32 +80,43 @@ body{
 
 				width:80%;
 			}
-			.field-content{
-				//background:#333;
-				font-size: 1.5em;
-			}
 
-			.views-row{
+			//create padding between the video listed
+			.view-tv-show-page-view .views-row{
 				padding: 15px 15px 100px 50px;
 			}
 
-			.views-row-even{
-				border-color: red;
+			//create a gray line in between the videos to separte one another
+			.view-tv-show-page-view .views-row-even{
+				border-color: gray;
 				border-style: solid;
     			border-width: 1px 0 1px 0;
 			}
+
 		}
+
+
+		//Second Side bar style
 
 		.l-region--sidebar-second{
 			@include grid-span(3, 10);
-			//padding:5px 5px 5px 5px;
 			margin: 0 auto;
-			height:100%;
+			
 		}
 	}
 
-	.l-region--sidebar-second{
-		background-color:yellow;
+	//Footer style
+	.l-footer{
+		background:#999;
+		padding: 15px 15px 15px 15px;
 	}
 
+
+
+
+	//header img will fit 100% of screen width
+	
+	.l-branding img{
+		width:100%;
+	}
 }
